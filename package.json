@@ -1,0 +1,14 @@
+{
+  "name": "nba-player-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NBA ATLAS player skill card renderer",
+  "scripts": {
+    "test": "node --test test.mjs",
+    "card": "node generate.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}
